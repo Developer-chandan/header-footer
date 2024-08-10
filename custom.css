@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
+header {
+   
+    background-color: #1e428a;
+   
+}
+
+.logo a {
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+
+.search-bar {
+    margin-left: auto;
+    position: relative;
+}
+
+.search-bar input {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 29px;
+    width: 365px;
+    font-size: 15px;
+}
+
+
+.h_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 88%;
+    margin: 0 auto;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+span.angle_down svg {
+    width: 16px;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+}
+
+span.angle_down {
+    position: relative;
+}
+
+ul.dropdown li a {
+    width: 287px;
+    display: inline-block;
+    padding: 9px 23px;
+    text-decoration: none;
+    color: #1e428a;
+}
+
+ul.dropdown li a:hover {
+    background: #f5f5f5;
+    text-decoration:none;
+}
+
+span.search_icon {
+    position: absolute;
+    top: 54%;
+    right: 14px;
+    transform: translateY(-50%);
+}
+
+span.search_icon svg path {fill: #bababa;}
+
+span.search_icon svg {
+    width: 18px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropdown li {
+    /* margin-bottom: 10px; */
+    position: relative;
+}
+.menu-item > a {
+    color: white;
+    padding: 26px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+.second_drowpdown,
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 23px 0px;
+    margin: 0;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+
+.dropdown li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.second_drowpdown{
+    position: absolute;
+    left: 100%;
+    height: 100vh;
+    top: -22px;
+}
+
+ul.second_drowpdown li {
+    list-style: none;
+}
+
+.dropdown li:hover ul.second_drowpdown{
+    display: block;
+}
+
+
+span.angle_right svg {
+    width: 15px;
+    position: absolute;
+    right: 13px;
+    top: 12px;
+}
+
+
+.search-bar input[type="text"]:focus-visible {
+    border: none;
+    outline: none;
+}
+
+
+
+
+footer {
+    background-color: #1F1D0D;
+    color: #fff;
+    padding: 88px 0px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 180px;
+    margin: 0 20px;
+}
+
+.logo-section img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 24px;
+    margin-bottom: 29px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.latest-posts .post {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.latest-posts .post img {
+    width: 96px;
+    height: 80px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.post-info a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.post-info span {
+    display: block;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 78px;
+    border-top: 1px solid #444;
+    padding-top: 38px;
+    font-size: 14px;
+    color: #ccc;
+    width: 100%;
+}
+
+
+span.right_caret svg {
+    width: 16px;
+}
+
+span.right_caret svg path {
+    fill: #ebeb31;
+}
+
+span.right_caret {display: flex;}
+
+
+.footer_logo h2 {
+    font-size: 34px;
+    margin-bottom: 17px;
+}
+
+
+.footer-section.latest-posts {
+    min-width: 378px;
+}
+
+
+section#free_space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #1f1d0db3;
+}
